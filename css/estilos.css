@@ -8,8 +8,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url(../media/fondoazul.jpg);
-    background-repeat: repeat-y;
+    background-color: rgb(36, 141, 7);
     padding-top: 10px;  
 }
 
@@ -17,11 +16,12 @@ header{
     width: 100%;
     position: fixed;
     z-index: 100;
+    background-color:#01ff34;
 }
 
 .container__header{
     max-width: 100%;
-    background:  #c5087f ;
+    background:  #faa805 ;
     height: 60px;
     margin: auto;
     padding: 40px;
@@ -44,31 +44,28 @@ header{
     display: flex;
 }
 .menu nav ul li{
+    width: 150px;
+    height: 50px;
     list-style: none;
     padding: 0px 10px;
-    background: #dc47bc;
-    width: 200px;
-    height: 70px;
     margin: 20px 0px 0 3px;
     border-radius: 10px;  
 }
 .menu nav ul li:hover{
-    background: #c5087f;  
+    background: rgb(36, 141, 7);  
   
 }
 .menu nav ul li a{
-    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: rgb(156, 85, 4);
     transition: opacity 300ms;
-    width: 200px;
-    height: 70px;
-    border-radius: 20px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
-    text-align: center;
+    border-radius: 10px;
 }
 .menu nav ul li a:hover{
     color: #ffffff;
@@ -82,9 +79,7 @@ header{
 
 .container__media{
     max-width: 60%;
-    height: 850px;
-    background-image: url(../media/electronica.jpg);
-    background-repeat: no-repeat;
+    background-color: #046d19;
     margin: auto;
     border-radius: 20px;
     margin-top: 70px;
@@ -112,12 +107,11 @@ header{
     border-radius: 20px;
 }
 
-/*ESTILOS PAGINA WEB EL PROFE*/
+/*** PAGINA WEB EL PROFE***/
 .container__mediap{
     max-width: 60%;
     height: 850px;
-    background-image: url(../media/electronica.jpg);
-    background-repeat: no-repeat;
+    background-color:#046d19;
     margin: auto;
     border-radius: 20px;
     margin-top: 70px;
@@ -145,11 +139,11 @@ header{
     border-radius: 20px;
 }
 
-/***** PAGINA PRODUCTOS ****/
+/***** PRODUCTOS ****/
 .container__produc{
     width: 60%;
     height: 1700px;
-    background-color: rgb(245, 241, 237);
+    background-color: #046d19;
     border-radius: 20px;
     margin: auto;
     margin-top: 80px;
@@ -221,9 +215,20 @@ header{
     main{
         padding: 20px;
     }
+
+    .menu nav ul li{
+        background-color: #056618cd;
+    }
+    
     .menu nav ul li a{
         font-size: 18px;
+        color: white; 
     }
+    .menu nav ul li a:hover{
+        background: rgb(32, 125, 6); 
+        
+    }
+
     #icon_menu{
         display: flex;
         cursor: pointer;
@@ -277,9 +282,9 @@ header{
     .form{
         padding: 3.5em 1em;
     }
-    .container__media{
+    /*.container__media{
         margin-top:60px;
-    }
+    }*/
 
     .red__social{
         margin-left: 10px;
