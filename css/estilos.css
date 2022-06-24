@@ -81,7 +81,7 @@ header{
 }
 
 .container__media{
-    max-width: 1200px;
+    max-width: 60%;
     height: 850px;
     background-image: url(../media/electronica.jpg);
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ header{
 
 /*ESTILOS PAGINA WEB EL PROFE*/
 .container__mediap{
-    max-width: 1200px;
+    max-width: 60%;
     height: 850px;
     background-image: url(../media/electronica.jpg);
     background-repeat: no-repeat;
@@ -143,6 +143,26 @@ header{
 .acce_directos2 img:hover{
     opacity: 50%;
     border-radius: 20px;
+}
+
+/***** PAGINA PRODUCTOS ****/
+.container__produc{
+    width: 60%;
+    height: 1700px;
+    background-color: rgb(245, 241, 237);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 80px;
+    justify-items: center;
+    text-align: center;
+}
+.produc__tos img{
+    width:49%;
+    height:600px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #04841d;
+    margin-top: 10px;
 }
 
 /*******FORMULARIO*******/
