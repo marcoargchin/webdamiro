@@ -496,4 +496,7 @@ input.form-control {
         top: -200px; /* ajusta según tu diseño */
         z-index: 1;
     }
+    .col-auto p{
+    font-size: 15px;
+    }
 }
