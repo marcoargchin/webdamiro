@@ -52,3 +52,16 @@ $(document).ready(function () {
         autoplayTimeout: 4000,
     })
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const navbarCollapse = document.getElementById("navbarNav");
+    const navLinks = navbarCollapse.querySelectorAll("a.nav-link, a.btn");
+
+    navLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            if (window.getComputedStyle(navbarToggler).display !== "none") {
+                navbarToggler.click();
+            }
+        });
+    });
+});
