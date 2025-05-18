@@ -490,3 +490,10 @@ input.form-control {
     box-shadow: none;
     border-color: var(--brand);
 }
+@media (max-width: 768px) {
+    .hero-slider img {
+        position: relative;
+        top: -200px; /* ajusta según tu diseño */
+        z-index: 1;
+    }
+}
